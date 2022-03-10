@@ -20,11 +20,20 @@ if player == "1":
 3. Потянуть на себя зеленую книгу.''')
     player =input("Введите номер выбраного варианта")
     if player == "1":
-        print()
+        print("Под вами открывается люк и вы летите вниз")
     elif player == "2":
-        print()
+        print("Потянув книгу вы бесшумно открыли проход")
+        time.sleep(15)
+        print("Ты все еще летишь")
+        time.sleep(15)
+        print("Все еще летишь")
+        time.sleep(15)
+        print("Все еще летишь")
+        time.sleep(15)
+        print('''Ты упал на колья)
+YOU DIED''')
     elif player == "3":
-        print()
+        print("")
 elif player == "2":
     print("Вы увидели солдата в метре от себя и с ужасом понимаете что вас заметили и пробуете оправдаться.")
     player = random.randint(0,100)
